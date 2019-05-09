@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: huahua-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/g135789/huahua-config.git
+
+server:
+  port: 12000
+
+rabbitmq:
+  host: 10.2.21.128
+  username: guest
+  password: gaoxuanqi
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

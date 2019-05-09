@@ -1,0 +1,16 @@
+server:
+  port: 9009
+
+spring:
+  application:
+    name: huahua_sms
+  rabbitmq:
+    host: 10.2.21.128
+    username: guest
+    password: gaoxuanqi
+
+#短信发送的参数
+api:
+  send:
+    AppCode: dadd1c006246458ba271ed84c5d2795a
+    tplid: TP18041310
